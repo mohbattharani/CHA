@@ -5,6 +5,7 @@ from tasks.affect.ppg_get import PPGGet
 from tasks.affect.sleep_analysis import SleepAnalysis
 from tasks.affect.sleep_get import SleepGet
 from tasks.affect.stress_analysis import StressAnalysis
+from tasks.affect.foodkg import FoodKGAnalysis
 
 __all__ = [
     "SleepGet",
@@ -14,4 +15,5 @@ __all__ = [
     "PPGGet",
     "PPGAnalysis",
     "StressAnalysis",
+    'FoodKGAnalysis',
 ]
